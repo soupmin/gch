@@ -1,0 +1,237 @@
+body {
+    background: #0d0f10;
+    color: #E0E0E0;
+    font-family: Helvetica, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.15),
+    transparent
+  );
+      pointer-events: none;
+}
+
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../imp.gif");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100px;
+}
+
+a {
+    color: #78b5fa;
+}
+
+a:hover {
+    color: #d4e6fa;
+}
+
+hr {
+    background: linear-gradient(to right, transparent, #333, transparent);
+    border: none;
+    height: 2px;
+}
+
+.reflink a:hover {
+    font-weight: bold;
+}
+
+.logo {
+    clear: both;
+    text-align: center;
+    font-size: 2em;
+    color: #E0E0E0;
+    width: 100%;
+}
+
+.replymode {
+    background-image: linear-gradient(to right, #8c3535, #D32F2F, #8c3535);
+    text-align: center;
+    padding: 2px;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 7px 0px;
+}
+
+.manageinfo {
+    background: #388E3C;
+    text-align: center;
+    padding: 2px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.catalogmode {
+    background: #1976D2;
+    text-align: center;
+    padding: 2px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.rules {
+    width: 468px;
+    font-size: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
+.rules li {
+    margin-left: 1em;
+}
+
+.postblock {
+  background-image: linear-gradient(to bottom, #333, #444, #222);
+  color: #E0E0E0;
+  font-weight: 700;
+  border-radius: 0.5px;
+  border: 0.25px solid #666;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.passvalid {
+    background: #3C3C3C;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.dellist {
+    font-weight: bold;
+    text-align: center;
+}
+
+.delbuttons {
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.managehead {
+    background: #7D7D3C;
+    color: #400000;
+    padding: 0;
+}
+
+.postlists {
+    background: #181818;
+    width: 100%;
+    padding: 0;
+    color: #E0E0E0;
+}
+
+.row1 {
+    background: #2C2C2C;
+    color: #E0E0E0;
+}
+
+.row2 {
+    background: #3C3C3C;
+    color: #E0E0E0;
+}
+
+.unkfunc {
+    background: inherit;
+    color: #789922;
+}
+
+.filesize {
+    text-decoration: none;
+}
+
+.filetitle {
+    background: inherit;
+    font-size: 1.2em;
+    color: #FF6347;
+    font-weight: 800;
+}
+
+.postername {
+    color: #43A047;
+    font-weight: bold;
+}
+
+.postertrip {
+    color: #66BB6A;
+}
+
+.oldpost {
+    color: #FF6347;
+    font-weight: 800;
+}
+
+.omittedposts {
+    color: #707070;
+}
+
+.reply {
+    background-image: linear-gradient(to bottom, #222, #111); !important;
+    color: #E0E0E0 !important;
+    border-radius: 2px;
+    border: 2px solid #333;
+    margin-right: 8px;
+}
+
+.replyhl {
+    background: #FFCDD2;
+    color: #E0E0E0;
+}
+
+.replytitle {
+    font-size: 1.2em;
+    color: #FF6347;
+    font-weight: 800;
+}
+
+.hoverpost {
+    background: #121212;
+    color: #E0E0E0;
+}
+
+.commentpostername {
+    color: #43A047;
+    font-weight: 800;
+}
+
+.thumbnailmsg {
+    font-size: small;
+    color: #E0E0E0;
+}
+
+.abbrev {
+    color: #707070;
+}
+
+.highlight {
+    background: #FFCDD2;
+    color: #E0E0E0;
+    border: 2px dashed #FF6347;
+}
+
+input, textarea, select, button, dialog {
+  background-image: linear-gradient(to bottom, #222, #333, #111);
+  border-radius: 2px;
+  border: 1px solid #666;
+}
+
+input,
+textarea,
+select {
+    color: #ffffff;
+}
